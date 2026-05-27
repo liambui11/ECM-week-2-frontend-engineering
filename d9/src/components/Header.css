@@ -1,0 +1,25 @@
+.store-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.store-header .logo {
+  font-size: 1.6rem;
+  color: #1e3a8a;
+  margin: 0;
+}
+
+.cart-badge-container {
+  font-weight: 600;
+  background-color: #f1f5f9;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.badge-count {
+  color: #2563eb;
+  font-weight: 700;
+}

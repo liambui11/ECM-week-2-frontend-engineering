@@ -1,0 +1,12 @@
+.view-container h2 {
+  color: #0f172a;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.view-container p {
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}

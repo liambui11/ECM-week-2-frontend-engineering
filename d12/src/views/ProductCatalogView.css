@@ -1,0 +1,18 @@
+.catalog-container { padding: 20px; }
+.state-prompt { text-align: center; padding: 40px; font-weight: 600; font-size: 1.1rem; border-radius: 8px; margin-top: 20px; }
+.state-prompt.loading { background-color: #eff6ff; color: #1e40af; }
+.state-prompt.error { background-color: #fef2f2; color: #991b1b; border: 1px solid #fee2e2; }
+.state-prompt.empty { background-color: #f8fafc; color: #475569; border: 1px dashed #cbd5e1; }
+
+.products-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px; }
+.product-card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; background-color: #ffffff; }
+.product-card h4 { margin: 0 0 10px 0; color: #0f172a; }
+.product-card .price { color: #2563eb; font-weight: 600; margin: 0; }
+
+.product-img-preview {
+  width: 100%;
+  height: 150px;
+  object-fit: contain; /* Giữ nguyên tỷ lệ ảnh sản phẩm không bị méo */
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}

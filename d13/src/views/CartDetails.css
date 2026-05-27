@@ -1,0 +1,13 @@
+.cart-sidebar { width: 360px; background: white; border: 1px solid #e2e8f0; padding: 24px; box-sizing: border-box; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+.sidebar-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; }
+.sidebar-header h3 { margin: 0; color: #0f172a; font-size: 1.15rem; }
+.clear-all-btn { background: none; border: none; color: #dc2626; cursor: pointer; font-weight: 700; font-size: 0.85rem; }
+.empty-notice { color: #94a3b8; text-align: center; margin-top: 40px; font-size: 0.95rem; }
+.basket-item { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px dashed #f1f5f9; }
+.cart-thumb { width: 45px; height: 45px; object-fit: contain; background: white; border: 1px solid #f1f5f9; border-radius: 4px; padding: 2px; }
+.item-meta { flex: 1; min-width: 0; }
+.item-meta h5 { margin: 0; color: #1e293b; font-size: 0.9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sub-text { margin: 4px 0 0 0; font-size: 0.8rem; color: #64748b; font-weight: 500; }
+.drop-item-btn { background: none; border: none; color: #94a3b8; cursor: pointer; font-size: 1rem; padding: 4px; transition: color 0.2s; }
+.drop-item-btn:hover { color: #ef4444; }
+.aggregate-box { margin-top: 20px; display: flex; justify-content: space-between; font-weight: 700; font-size: 1.1rem; border-top: 2px solid #0f172a; padding-top: 15px; color: #0f172a; }

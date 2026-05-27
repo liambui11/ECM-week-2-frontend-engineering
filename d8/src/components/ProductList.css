@@ -1,0 +1,22 @@
+.product-list-container {
+  padding: 20px 0;
+}
+
+.product-list-container h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 24px; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

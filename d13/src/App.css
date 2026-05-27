@@ -1,0 +1,5 @@
+body { background-color: #f8fafc; margin: 0; padding: 0; }
+.workspace-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; font-family: system-ui, -apple-system, sans-serif; }
+.workspace-body-layout { display: flex; gap: 25px; align-items: flex-start; }
+.workspace-body-layout > :first-child { flex: 1; }
+.error-boundary-box { padding: 15px; background-color: #fef2f2; border: 1px solid #fee2e2; border-radius: 8px; color: #991b1b; margin: 10px 0; font-weight: 500; }

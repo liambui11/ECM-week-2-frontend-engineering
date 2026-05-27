@@ -1,0 +1,30 @@
+.product-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-badge {
+  align-self: flex-start;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.product-price {
+  color: #2563eb;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.detail-card {
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  margin-top: 15px;
+}
+
+.detail-card p {
+  color: #334155;
+  margin: 0 0 15px 0;
+}
+
+.back-btn {
+  background-color: #64748b;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
